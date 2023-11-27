@@ -46,10 +46,7 @@ if __name__ == "__main__":
             print(f'Skipping {usrnme} ... \n')
             continue
 
-        print()
-        print("Username: ", profile.username)
-        print("User ID: ", profile.userid)
-        print("Number of Posts: ", profile.mediacount)
+        print("Starting to scrape ", profile.username)
 
         i = 0
         for post in profile.get_posts():
@@ -105,3 +102,5 @@ if __name__ == "__main__":
             if i >= 5:
                 break
             # break
+        
+        print(f'Finished {usrnme} ...\n')
