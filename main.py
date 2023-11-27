@@ -54,7 +54,7 @@ if __name__ == "__main__":
         for post in profile.get_posts():
             # check if post is recent
             if post.date < one_month_ago:
-                continue
+                break
 
             # get media id
             mediaid = post.mediaid
