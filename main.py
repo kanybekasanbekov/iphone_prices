@@ -5,7 +5,7 @@ import json
 import pandas as pd
 import instaloader
 from openai import OpenAI
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Danger! This is my secret key.
 client = OpenAI(
@@ -32,6 +32,9 @@ if __name__ == "__main__":
     login = args.login
     password = args.password
 
+    today_date = datetime.now()
+    one_month_ago = today_date - timedelta(days=30)
+
     bot = instaloader.Instaloader()
     if login and password:
         bot.login(login, password)
@@ -48,9 +51,10 @@ if __name__ == "__main__":
 
         print("Starting to scrape ", profile.username)
 
-        i = 0
         for post in profile.get_posts():
-            i += 1
+            # check if post is recent
+            if post.date < one_month_ago:
+                continue
 
             # get media id
             mediaid = post.mediaid
@@ -99,8 +103,4 @@ if __name__ == "__main__":
             with open('database.json', 'w') as f:
                 json.dump(DATABASE, f, indent=4)
 
-            if i >= 5:
-                break
-            # break
-        
         print(f'Finished {usrnme} ...\n')
