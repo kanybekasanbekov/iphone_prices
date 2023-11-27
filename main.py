@@ -23,13 +23,13 @@ with open('database.json', 'r') as f:
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--username', type=str, default='', help='Instagram username')
+    parser.add_argument('--login', type=str, default='', help='Instagram login')
     parser.add_argument('--password', type=str, default='', help='Instagram password')
     return parser.parse_args()
 
 if __name__ == "__main__":
     args = get_args()
-    login = args.username
+    login = args.login
     password = args.password
 
     bot = instaloader.Instaloader()
