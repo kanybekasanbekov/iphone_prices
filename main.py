@@ -59,8 +59,17 @@ if __name__ == "__main__":
             # get media id
             mediaid = post.mediaid
 
+            # print info
+            print(f'INFO: Processing post {mediaid}')
+
+            # check if media id is already in database
+            if str(mediaid) in DATABASE:
+                print(f'INFO: This post is already in database. {mediaid}')
+                continue
+
             # check if post has caption
             if not post.caption:
+                print(f'INFO: This post has no caption. {mediaid}')
                 continue
 
             # send request to openai
@@ -81,13 +90,13 @@ if __name__ == "__main__":
             try:
                 res = ast.literal_eval(res)
             except Exception as e:
-                print('WARNING: Could not convert to dictionary.')
+                print(f'WARNING: Could not convert to dictionary. {mediaid}')
                 is_valid_res = False
                 res = {}
         
             # check if dictionary is empty
             if len(res) == 0:
-                print('WARNING: Dictionary is empty.')
+                print(f'WARNING: Dictionary is empty. {mediaid}')
                 is_valid_res = False
 
             # add more data to dictionary
