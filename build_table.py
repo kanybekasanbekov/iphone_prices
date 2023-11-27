@@ -15,7 +15,7 @@ grouped = df.groupby(['model', 'capacity'])
 with open('iphone_prices.md', 'w') as output_file:
     for (model, capacity), group_data in grouped:
         # Create a section for each model and capacity combination
-        markdown_table = f"## {model} {capacity}\n\n"
+        markdown_table = f"## {model}, {int(capacity)} GB\n\n"
 
         # Create a copy of the group data to modify the 'link' column 
         # format without changing the original DataFrame
