@@ -21,6 +21,9 @@ with open('iphone_prices.md', 'w') as output_file:
         # format without changing the original DataFrame
         group_data_formatted = group_data.copy()
 
+        # Sort the group data by 'date' column
+        group_data_formatted.sort_values(by=['date'], inplace=True, ascending=False)
+
         # Format 'link' column as Markdown links
         group_data_formatted['link'] = group_data_formatted['link'].apply(lambda x: f"[link]({x})")
 
