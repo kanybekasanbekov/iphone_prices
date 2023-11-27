@@ -59,8 +59,8 @@ if __name__ == "__main__":
             # get media id
             mediaid = post.mediaid
 
-            # check if media id is already in database
-            if mediaid in DATABASE:
+            # check if post has caption
+            if not post.caption:
                 continue
 
             # send request to openai
