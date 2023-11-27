@@ -90,11 +90,10 @@ if __name__ == "__main__":
                 print('WARNING: Dictionary is empty.')
                 is_valid_res = False
 
-            if is_valid_res:
-                # add more data to dictionary
-                res['link'] = 'https://www.instagram.com/p/' + post.shortcode
-                res['date'] = post.date.strftime("%Y/%m/%d")
-                res['mediaid'] = mediaid
+            # add more data to dictionary
+            res['link'] = 'https://www.instagram.com/p/' + post.shortcode
+            res['date'] = post.date.strftime("%Y/%m/%d")
+            res['mediaid'] = mediaid
 
             # add to database
             DATABASE[mediaid] = res
