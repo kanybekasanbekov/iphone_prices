@@ -41,11 +41,9 @@ if __name__ == "__main__":
     for usrnme in usernames:
         try:
             profile = instaloader.Profile.from_username(bot.context, usrnme)
-        except instaloader.exceptions.ProfileNotExistsException:
-            print('Either profile does not exist or is private.')
-            if not login or not password:
-                print('Please provide username, password and login to your account.')
-            print(f'Skipping {usrnme} ...')
+        except Exception as e:
+            print(e)
+            print(f'Skipping {usrnme} ... \n')
             continue
 
         print()
