@@ -93,7 +93,6 @@ if __name__ == "__main__":
             # add more data to dictionary
             res['link'] = 'https://www.instagram.com/p/' + post.shortcode
             res['date'] = post.date.strftime("%Y/%m/%d")
-            res['mediaid'] = mediaid
 
             # add to database
             DATABASE[mediaid] = res
