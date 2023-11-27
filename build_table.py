@@ -11,6 +11,9 @@ df = pd.DataFrame.from_dict(data, orient='index')
 # Group data by 'model' and 'capacity' columns
 grouped = df.groupby(['model', 'capacity'])
 
+# Remove mediaid column
+df.drop(columns=['mediaid'], inplace=True)
+
 # Write markdown tables for each group to a single file
 with open('iphone_prices.md', 'w') as output_file:
     for (model, capacity), group_data in grouped:
