@@ -113,3 +113,14 @@ if __name__ == "__main__":
                 json.dump(DATABASE, f, indent=4)
 
         print(f'Finished {usrnme} ...\n')
+    
+    # delete outdated from database
+    for key, value in DATABASE.items():
+        date = datetime.strptime(value['date'], "%Y/%m/%d")
+        if date < one_month_ago:
+            print(f'INFO: Deleting outdated post from database. {key}')
+            del DATABASE[key]
+    
+    # save json
+    with open('database.json', 'w') as f:
+        json.dump(DATABASE, f, indent=4)
