@@ -20,6 +20,9 @@ with open('prompt.txt', 'r') as f:
 with open('database.json', 'r') as f:
     DATABASE = json.load(f)
 
+ONLINE_STORES = ['telefonchik009', 'mobillion.kg', 'apple.tsum', 'apple__kg', \
+                    'crazy.store.kg', 'sotochka312']
+
 
 def get_args():
     parser = argparse.ArgumentParser()
@@ -40,8 +43,7 @@ if __name__ == "__main__":
         bot.login(login, password)
         print(f'Logged in to account {login} successfully.')
 
-    usernames = ['telefonchik009', 'mobillion.kg', 'apple.tsum', 'apple__kg']
-    for usrnme in usernames:
+    for usrnme in ONLINE_STORES:
         try:
             profile = instaloader.Profile.from_username(bot.context, usrnme)
         except Exception as e:
@@ -49,7 +51,7 @@ if __name__ == "__main__":
             print(f'Skipping {usrnme} ... \n')
             continue
 
-        print("Starting to scrape ", profile.username)
+        print("Starting to scrape ", usrnme)
 
         for post in profile.get_posts():
             # check if post is recent
