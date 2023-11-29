@@ -115,7 +115,7 @@ if __name__ == "__main__":
         print(f'Finished {usrnme} ...\n')
     
     # delete outdated from database
-    for key, value in DATABASE.items():
+    for key, value in DATABASE.copy().items():
         date = datetime.strptime(value['date'], "%Y/%m/%d")
         if date < one_month_ago:
             print(f'INFO: Deleting outdated post from database. {key}')
