@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1a1a1a;
+    color: #f0f0f0; 
+    margin: 0;
+    padding: 40px;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px; /* Softened border radius */
+    background: #2c2c2c; /* Dark background for the container */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Deeper shadow for depth */
+    color: #fff; /* Light text color for visibility */
+}
+
+h1 {
+    text-align: center;
+    color: #f1f1f1; 
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 3px solid #444; 
+    background: #333;
+    color: #fff; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: #333; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    padding: 12px;
+    border: 2px solid #444; 
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+th {
+    background-color: #5a5a5a; 
+    color: white;
+    cursor: pointer;
+    border-bottom: 3px solid #333;
+}
+
+tr:hover {
+    background-color: #404040;
+}
+
+td a {
+    color: #83b4d8;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
