@@ -1,19 +1,169 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Список iPhone</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Бишкек</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    
+    <!-- Иконки шрифта -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Стили библиотек -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Настроенные стили Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Стили шаблона -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Цены на телефон в Бишкеке</h1>
-        <input type="text" id="searchInput" style = "width: 360px;"placeholder="Поиск по модели...">
-        <div id="tablesContainer">
-            
+    <div class="container-fluid position-relative d-flex p-0">
+        <!-- Спиннер начало -->
+        <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Загрузка...</span>
+            </div>
         </div>
+        <!-- Спиннер конец -->
+
+
+        <!-- Начало боковой панели -->
+        <div class="sidebar pe-4 pb-3">
+            <nav class="navbar bg-secondary navbar-dark">
+                <a href="index.html" class="navbar-brand mx-4 mb-3">
+                    <h3 class="text-primary"><i ></i>Бишкек</h3>
+                </a>
+                
+                <div class="navbar-nav w-100">
+                    <a href="index.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Телефоны</a>
+                    <a href="widget.html" class="nav-item nav-link"><i class="fa fa-th me-2"></i>О нас</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Конец боковой панели -->
+
+
+        <!-- Начало контента -->
+        <div class="content">
+            <!-- Начало панели навигации -->
+            <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
+                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
+                    <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
+                </a>
+                <a href="#" class="sidebar-toggler flex-shrink-0">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <form class="d-none d-md-flex ms-4">
+                    <input class="form-control bg-dark border-0" type="search" id="modelSearch" placeholder="Поиск по модели iPhone">
+                </form>
+
+                <div class="navbar-nav align-items-center ms-auto">
+                    
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fa fa-bell me-lg-2"></i>
+                            <span class="d-none d-lg-inline-flex">Модели iPhone</span>
+                        </a>
+                       
+                    </div>
+                </div>
+            </nav>
+            
+
+            <div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary text-center rounded p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <h6 class="mb-0">Цены на iPhone</h6>
+                        <a href="">Показать все</a>
+                    </div>
+                    <div class="table-responsive">
+                       <!-- Внутри div .table-responsive -->
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <select class="form-select" id="modelFilter">
+                                    <option value="">Фильтровать по модели</option>
+                                    <option value="iPhone X">iPhone X</option>
+                                    <option value="iPhone 12">iPhone 12</option>
+                                    <option value="iPhone 13">iPhone 13</option>
+                                    <option value="iPhone 14">iPhone 14</option>
+                                    <option value="iPhone 15">iPhone 15</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <select class="form-select" id="gbFilter">
+                                    <option value="">Фильтровать по памяти</option>
+                                    <option value="128 GB">128 ГБ</option>
+                                    <option value="256 GB">256 ГБ</option>
+                                    <option value="512 GB">512 ГБ</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <table class="table text-start align-middle table-bordered table-hover mb-0">
+                            <thead>
+                                <tr class="text-white">
+                                    <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                                    <th scope="col">Модель</th>
+                                    <th scope="col">Память</th>
+                                    <th scope="col">Батарея</th>
+                                    <th scope="col">Цена</th>
+                                    <th scope="col">Инстаграм</th>
+                                    <th scope="col">Дата</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary rounded-top p-4">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 text-center text-sm-start">
+                            &copy; <a href="#">IN+</a> 2023 Все права защищены. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Конец подвала -->
+        </div>
+        <!-- Конец контента -->
+
+        <!-- Наверх -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/chart/chart.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>
