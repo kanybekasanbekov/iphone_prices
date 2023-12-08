@@ -8,7 +8,59 @@
         filterTableBySearchQuery(searchQuery);
     });
 
-    function filterTableBySearchQuery(searchQuery) {
+
+    $('#versionFilter').on('change', function () {
+      var selectedVersion = $(this).val();
+      filterTableByVersion(selectedVersion);
+    });
+
+    function filterTableByVersion(selectedVersion) {
+      var tableRows = $('.table-responsive tbody tr');
+
+      tableRows.each(function () {
+        var row = $(this);
+        var modelCellText = row.find('td:eq(1)').text().trim().toLowerCase();
+
+        var versionFound = false;
+
+        if (selectedVersion === 'Regular') {
+          if (!modelCellText.includes('mini') && !modelCellText.includes('max') && !modelCellText.includes('pro') && !modelCellText.includes('plus')) {
+            versionFound = true;
+          }
+        } else if (selectedVersion === 'Mini') {
+          if (modelCellText.includes('mini')) {
+            versionFound = true;
+          }
+        } else if (selectedVersion === 'Plus') {
+          if (modelCellText.includes('plus')) {
+            versionFound = true;
+          }
+        } else if (selectedVersion === 'Max') {
+          if (modelCellText.includes('max') && !modelCellText.includes('pro max')) {
+            versionFound = true;
+          }
+        } else if (selectedVersion === 'Pro') {
+          if (modelCellText.includes('pro') && !modelCellText.includes('pro max')) {
+            versionFound = true;
+          }
+        } else if (selectedVersion === 'Pro Max') {
+          if (modelCellText.includes('pro max')) {
+            versionFound = true;
+          }
+        }
+
+        if (versionFound) {
+          row.show();
+        } else {
+          row.hide();
+        }
+      });
+    }
+
+
+
+
+  function filterTableBySearchQuery(searchQuery) {
         var tableRows = $('.table-responsive tbody tr');
 
         tableRows.each(function () {
