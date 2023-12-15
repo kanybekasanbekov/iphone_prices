@@ -31,8 +31,6 @@
 | iPhone 11 Pro |        256 | 90               |   38000 | [link](https://www.instagram.com/p/C0BFoj0IZB_) | 2023/11/24 |
 | iPhone 11 Pro |        256 | 90               |   38000 | [link](https://www.instagram.com/p/C0BFsGwowKP) | 2023/11/24 |
 | iPhone 11 Pro |        256 | No Info          |   29500 | [link](https://www.instagram.com/p/Cz_x-vqIzEb) | 2023/11/23 |
-| iPhone 11 Pro |        256 | 90               |   38500 | [link](https://www.instagram.com/p/CzdzORDodyq) | 2023/11/10 |
-| iPhone 11 Pro |        256 | 90               |   38500 | [link](https://www.instagram.com/p/CzdzRbtM-R7) | 2023/11/10 |
 
 ## iPhone 11 Pro, No Info GB
 
@@ -68,6 +66,7 @@
 
 | model          |   capacity | battery_health   |   price | link                                            | date       |
 |:---------------|-----------:|:-----------------|--------:|:------------------------------------------------|:-----------|
+| iPhone 12 Mini |        128 | No Info          |   23000 | [link](https://www.instagram.com/p/C003eAMIAso) | 2023/12/14 |
 | iPhone 12 Mini |        128 | No Info          |   30000 | [link](https://www.instagram.com/p/Cz_a267I_Ag) | 2023/11/23 |
 
 ## iPhone 12 Pro, 128 GB
@@ -85,12 +84,6 @@
 | iPhone 12 Pro |        128 |               97 |   45000 | [link](https://www.instagram.com/p/CztaIk8IM1M) | 2023/11/16 |
 | iPhone 12 Pro |        128 |               97 |   45000 | [link](https://www.instagram.com/p/CztaM7IMUth) | 2023/11/16 |
 
-## iPhone 12 Pro, 256 GB
-
-| model         |   capacity |   battery_health |   price | link                                            | date       |
-|:--------------|-----------:|-----------------:|--------:|:------------------------------------------------|:-----------|
-| iPhone 12 Pro |        256 |               96 |   47000 | [link](https://www.instagram.com/p/CznejWCI3YR) | 2023/11/14 |
-
 ## iPhone 12 Pro Max, 128 GB
 
 | model             |   capacity |   battery_health |   price | link                                            | date       |
@@ -100,8 +93,6 @@
 | iPhone 12 Pro Max |        128 |              100 |   49000 | [link](https://www.instagram.com/p/Cz3Z0V3tXo_) | 2023/11/20 |
 | iPhone 12 Pro Max |        128 |               97 |   53000 | [link](https://www.instagram.com/p/CztLioHoYV1) | 2023/11/16 |
 | iPhone 12 Pro Max |        128 |               97 |   53000 | [link](https://www.instagram.com/p/CztLlXYMPwW) | 2023/11/16 |
-| iPhone 12 Pro Max |        128 |               86 |   52000 | [link](https://www.instagram.com/p/CzbUmuxIK1_) | 2023/11/09 |
-| iPhone 12 Pro Max |        128 |               86 |   52000 | [link](https://www.instagram.com/p/CzbUj2DMtI3) | 2023/11/09 |
 
 ## iPhone 12 Pro Max, 256 GB
 
@@ -114,6 +105,8 @@
 
 | model     |   capacity |   battery_health |   price | link                                            | date       |
 |:----------|-----------:|-----------------:|--------:|:------------------------------------------------|:-----------|
+| iPhone 13 |        128 |               92 |   47000 | [link](https://www.instagram.com/p/C0rEBUkIQdf) | 2023/12/10 |
+| iPhone 13 |        128 |               92 |   47000 | [link](https://www.instagram.com/p/C0rEF_QMZwu) | 2023/12/10 |
 | iPhone 13 |        128 |              100 |   50000 | [link](https://www.instagram.com/p/C0MuuooM9w1) | 2023/11/28 |
 | iPhone 13 |        128 |               99 |   52000 | [link](https://www.instagram.com/p/Cz51ud5oGio) | 2023/11/21 |
 | iPhone 13 |        128 |               99 |   52000 | [link](https://www.instagram.com/p/Cz51y7hsbjB) | 2023/11/21 |
@@ -137,6 +130,8 @@
 
 | model         |   capacity |   battery_health |   price | link                                            | date       |
 |:--------------|-----------:|-----------------:|--------:|:------------------------------------------------|:-----------|
+| iPhone 13 Pro |        128 |               89 |   57000 | [link](https://www.instagram.com/p/C0yJYm7oF1p) | 2023/12/13 |
+| iPhone 13 Pro |        128 |               89 |   57000 | [link](https://www.instagram.com/p/C0yJcmpMhW6) | 2023/12/13 |
 | iPhone 13 Pro |        128 |              100 |   55000 | [link](https://www.instagram.com/p/C0bcdDxoRTq) | 2023/12/04 |
 | iPhone 13 Pro |        128 |               87 |   58000 | [link](https://www.instagram.com/p/C0YXojRNhEo) | 2023/12/03 |
 | iPhone 13 Pro |        128 |               87 |   58000 | [link](https://www.instagram.com/p/C0YVsGtNkao) | 2023/12/03 |
@@ -161,6 +156,12 @@
 |:--------------|-----------:|-----------------:|--------:|:------------------------------------------------|:-----------|
 | iPhone 13 Pro |        512 |               95 |   65000 | [link](https://www.instagram.com/p/C0IZFMCIwf6) | 2023/11/27 |
 
+## iPhone 13 Pro, No Info GB
+
+| model         | capacity   | battery_health   |   price | link                                            | date       |
+|:--------------|:-----------|:-----------------|--------:|:------------------------------------------------|:-----------|
+| iPhone 13 Pro | No Info    | No Info          |   56800 | [link](https://www.instagram.com/p/C0yjuzYon5Q) | 2023/12/13 |
+
 ## iPhone 13 Pro Max, 128 GB
 
 | model             |   capacity | battery_health   |   price | link                                            | date       |
@@ -172,6 +173,7 @@
 
 | model             |   capacity | battery_health   |   price | link                                            | date       |
 |:------------------|-----------:|:-----------------|--------:|:------------------------------------------------|:-----------|
+| iPhone 13 Pro Max |        256 | No Info          |   74500 | [link](https://www.instagram.com/p/C0oeWN6onws) | 2023/12/09 |
 | iPhone 13 Pro Max |        256 | 100              |   73000 | [link](https://www.instagram.com/p/C0jaqe_IUTG) | 2023/12/07 |
 | iPhone 13 Pro Max |        256 | 100              |   73000 | [link](https://www.instagram.com/p/C0jalrmsMvP) | 2023/12/07 |
 | iPhone 13 Pro Max |        256 | 90               |   74500 | [link](https://www.instagram.com/p/C0i6jyqoBei) | 2023/12/07 |
@@ -179,7 +181,6 @@
 | iPhone 13 Pro Max |        256 | 92               |   68000 | [link](https://www.instagram.com/p/C0MwAOOsMW8) | 2023/11/28 |
 | iPhone 13 Pro Max |        256 | 89               |   68000 | [link](https://www.instagram.com/p/Czu_AVMKKY5) | 2023/11/17 |
 | iPhone 13 Pro Max |        256 | No Info          |   72000 | [link](https://www.instagram.com/p/Czs-eaeI5-2) | 2023/11/16 |
-| iPhone 13 Pro Max |        256 | 86               |   65000 | [link](https://www.instagram.com/p/CzmBrbpofcg) | 2023/11/13 |
 
 ## iPhone 13 Pro Max, 512 GB
 
@@ -189,15 +190,16 @@
 
 ## iPhone 13 Pro Max, No Info GB
 
-| model             | capacity   | battery_health   | price   | link                                            | date       |
-|:------------------|:-----------|:-----------------|:--------|:------------------------------------------------|:-----------|
-| iPhone 13 Pro Max | No Info    | No Info          | 83000   | [link](https://www.instagram.com/p/Czs8kyGIjtv) | 2023/11/16 |
-| iPhone 13 Pro Max | No Info    | No Info          | No Info | [link](https://www.instagram.com/p/CzlZrowIdDX) | 2023/11/13 |
+| model             | capacity   | battery_health   |   price | link                                            | date       |
+|:------------------|:-----------|:-----------------|--------:|:------------------------------------------------|:-----------|
+| iPhone 13 Pro Max | No Info    | No Info          |   83000 | [link](https://www.instagram.com/p/Czs8kyGIjtv) | 2023/11/16 |
 
 ## iPhone 14, 128 GB
 
 | model     |   capacity |   battery_health |   price | link                                            | date       |
 |:----------|-----------:|-----------------:|--------:|:------------------------------------------------|:-----------|
+| iPhone 14 |        128 |               97 |   54000 | [link](https://www.instagram.com/p/C0rPFffo0k9) | 2023/12/10 |
+| iPhone 14 |        128 |               97 |   54000 | [link](https://www.instagram.com/p/C0rPIysML8N) | 2023/12/10 |
 | iPhone 14 |        128 |               98 |   55000 | [link](https://www.instagram.com/p/C0dbOVPtyI3) | 2023/12/05 |
 | iPhone 14 |        128 |              100 |   55000 | [link](https://www.instagram.com/p/C0dLg_ZIBkL) | 2023/12/05 |
 | iPhone 14 |        128 |              100 |   55000 | [link](https://www.instagram.com/p/C0YjZe4Nbmn) | 2023/12/03 |
@@ -215,7 +217,6 @@
 |:---------------|-----------:|-----------------:|--------:|:------------------------------------------------|:-----------|
 | iPhone 14 Plus |        128 |               95 |   58000 | [link](https://www.instagram.com/p/C0bcdb4MrZF) | 2023/12/04 |
 | iPhone 14 Plus |        128 |              100 |   55000 | [link](https://www.instagram.com/p/C0OpsZktieQ) | 2023/11/29 |
-| iPhone 14 Plus |        128 |               91 |   56000 | [link](https://www.instagram.com/p/Czn5duEoVth) | 2023/11/14 |
 
 ## iPhone 14 Pro, 128 GB
 
@@ -234,13 +235,12 @@
 | iPhone 14 Pro |        128 |              100 |   78000 | [link](https://www.instagram.com/p/Cz_NYUMsjNA) | 2023/11/23 |
 | iPhone 14 Pro |        128 |               88 |   66500 | [link](https://www.instagram.com/p/Cz83kkfox75) | 2023/11/22 |
 | iPhone 14 Pro |        128 |               99 |   72000 | [link](https://www.instagram.com/p/Cz8byk3tdFa) | 2023/11/22 |
-| iPhone 14 Pro |        128 |               94 |   69000 | [link](https://www.instagram.com/p/Cznu20rIEvq) | 2023/11/14 |
-| iPhone 14 Pro |        128 |               90 |   68000 | [link](https://www.instagram.com/p/CzbqiySo-gh) | 2023/11/09 |
 
 ## iPhone 14 Pro, 256 GB
 
 | model         |   capacity |   battery_health |   price | link                                            | date       |
 |:--------------|-----------:|-----------------:|--------:|:------------------------------------------------|:-----------|
+| iPhone 14 Pro |        256 |              100 |   80000 | [link](https://www.instagram.com/p/C0wDcTwt81l) | 2023/12/12 |
 | iPhone 14 Pro |        256 |               97 |   78000 | [link](https://www.instagram.com/p/C0dM7QwoqPs) | 2023/12/05 |
 | iPhone 14 Pro |        256 |               97 |   80000 | [link](https://www.instagram.com/p/C0ZBzUxtdmw) | 2023/12/03 |
 | iPhone 14 Pro |        256 |               99 |   85000 | [link](https://www.instagram.com/p/C0Jqj9Wtl3V) | 2023/11/27 |
@@ -254,16 +254,11 @@
 | iPhone 14 Pro |        256 |              100 |   86000 | [link](https://www.instagram.com/p/Czv9G1NsIcW) | 2023/11/17 |
 | iPhone 14 Pro |        256 |              100 |   80000 | [link](https://www.instagram.com/p/CzvDd3FqFZE) | 2023/11/17 |
 
-## iPhone 14 Pro, 512 GB
-
-| model         |   capacity |   battery_health |   price | link                                            | date       |
-|:--------------|-----------:|-----------------:|--------:|:------------------------------------------------|:-----------|
-| iPhone 14 Pro |        512 |               95 |   78500 | [link](https://www.instagram.com/p/CzqOiVfIcax) | 2023/11/15 |
-
 ## iPhone 14 Pro Max, 256 GB
 
 | model             |   capacity |   battery_health |   price | link                                            | date       |
 |:------------------|-----------:|-----------------:|--------:|:------------------------------------------------|:-----------|
+| iPhone 14 Pro Max |        256 |              100 |   90000 | [link](https://www.instagram.com/p/C0tmoX-ojzp) | 2023/12/11 |
 | iPhone 14 Pro Max |        256 |               98 |   91000 | [link](https://www.instagram.com/p/C0jqUxtIeqi) | 2023/12/07 |
 | iPhone 14 Pro Max |        256 |               98 |   91000 | [link](https://www.instagram.com/p/C0jqQ8GoreZ) | 2023/12/07 |
 | iPhone 14 Pro Max |        256 |               97 |   90000 | [link](https://www.instagram.com/p/C0gb0zFN8Dz) | 2023/12/06 |
@@ -273,27 +268,19 @@
 | iPhone 14 Pro Max |        256 |               86 |   83000 | [link](https://www.instagram.com/p/Cz_eSbQo9YN) | 2023/11/23 |
 | iPhone 14 Pro Max |        256 |               98 |   89000 | [link](https://www.instagram.com/p/Cz_3Wf-sIyG) | 2023/11/23 |
 | iPhone 14 Pro Max |        256 |               89 |   81000 | [link](https://www.instagram.com/p/CztOQ3YIcX9) | 2023/11/16 |
-| iPhone 14 Pro Max |        256 |               97 |   89000 | [link](https://www.instagram.com/p/Czq0YZvorHq) | 2023/11/15 |
-| iPhone 14 Pro Max |        256 |               97 |   89000 | [link](https://www.instagram.com/p/Czq0b8Ss4x-) | 2023/11/15 |
-| iPhone 14 Pro Max |        256 |              100 |   90000 | [link](https://www.instagram.com/p/CzngQ7PM3No) | 2023/11/14 |
-| iPhone 14 Pro Max |        256 |               94 |   86000 | [link](https://www.instagram.com/p/CzbntmhIIcU) | 2023/11/09 |
-| iPhone 14 Pro Max |        256 |               94 |   86000 | [link](https://www.instagram.com/p/CzbocZgIZ3V) | 2023/11/09 |
 
 ## iPhone 14 Pro Max, 512 GB
 
 | model             |   capacity |   battery_health |   price | link                                            | date       |
 |:------------------|-----------:|-----------------:|--------:|:------------------------------------------------|:-----------|
 | iPhone 14 Pro Max |        512 |              100 |   96000 | [link](https://www.instagram.com/p/C0LrtQfIEoR) | 2023/11/28 |
-| iPhone 14 Pro Max |        512 |               98 |   98000 | [link](https://www.instagram.com/p/Czngpf1M-Y4) | 2023/11/14 |
-| iPhone 14 Pro Max |        512 |              100 |  100000 | [link](https://www.instagram.com/p/CzfyC3ko9SI) | 2023/11/11 |
 
 ## iPhone 15, 128 GB
 
-| model     |   capacity | battery_health   |   price | link                                            | date       |
-|:----------|-----------:|:-----------------|--------:|:------------------------------------------------|:-----------|
-| iPhone 15 |        128 | 100              |   69000 | [link](https://www.instagram.com/p/Cz_oct0Iemp) | 2023/11/23 |
-| iPhone 15 |        128 | 100              |   69000 | [link](https://www.instagram.com/p/Cz_ohv0s51s) | 2023/11/23 |
-| iPhone 15 |        128 | No Info          |     770 | [link](https://www.instagram.com/p/CziMvNatblP) | 2023/11/12 |
+| model     |   capacity |   battery_health |   price | link                                            | date       |
+|:----------|-----------:|-----------------:|--------:|:------------------------------------------------|:-----------|
+| iPhone 15 |        128 |              100 |   69000 | [link](https://www.instagram.com/p/Cz_oct0Iemp) | 2023/11/23 |
+| iPhone 15 |        128 |              100 |   69000 | [link](https://www.instagram.com/p/Cz_ohv0s51s) | 2023/11/23 |
 
 ## iPhone 15 Pro, 128 GB
 
@@ -302,30 +289,34 @@
 | iPhone 15 Pro |        128 | 100              |   92000 | [link](https://www.instagram.com/p/C0eYU4ctEOb) | 2023/12/05 |
 | iPhone 15 Pro |        128 | No Info          |   96750 | [link](https://www.instagram.com/p/Cz5Qj3soHNV) | 2023/11/21 |
 | iPhone 15 Pro |        128 | No Info          |   95000 | [link](https://www.instagram.com/p/CztQQqbNFQO) | 2023/11/16 |
-| iPhone 15 Pro |        128 | 100              |    1050 | [link](https://www.instagram.com/p/CzbXSEktx-Z) | 2023/11/09 |
 
 ## iPhone 15 Pro, 256 GB
 
 | model         |   capacity | battery_health   |   price | link                                            | date       |
 |:--------------|-----------:|:-----------------|--------:|:------------------------------------------------|:-----------|
+| iPhone 15 Pro |        256 | No Info          |   98000 | [link](https://www.instagram.com/p/C03QP1yt6xd) | 2023/12/15 |
+| iPhone 15 Pro |        256 | 100              |   99000 | [link](https://www.instagram.com/p/C0zEkZNIe5l) | 2023/12/13 |
+| iPhone 15 Pro |        256 | 100              |   99000 | [link](https://www.instagram.com/p/C0zEeB_MTY4) | 2023/12/13 |
+| iPhone 15 Pro |        256 | No Info          |  101000 | [link](https://www.instagram.com/p/C0re1_Ioabr) | 2023/12/10 |
+| iPhone 15 Pro |        256 | No Info          |  101000 | [link](https://www.instagram.com/p/C0re0TjMRK0) | 2023/12/10 |
+| iPhone 15 Pro |        256 | No Info          |    1150 | [link](https://www.instagram.com/p/C0oxpKKI3R8) | 2023/12/09 |
 | iPhone 15 Pro |        256 | 100              |  100000 | [link](https://www.instagram.com/p/C0gLQCFtLBG) | 2023/12/06 |
 | iPhone 15 Pro |        256 | 100              |   99000 | [link](https://www.instagram.com/p/C0ZQRuFosaH) | 2023/12/03 |
 | iPhone 15 Pro |        256 | 100              |   99000 | [link](https://www.instagram.com/p/C0ZQPMRsCx8) | 2023/12/03 |
 | iPhone 15 Pro |        256 | 100              |   98000 | [link](https://www.instagram.com/p/C0V3ZTMIgYo) | 2023/12/02 |
-| iPhone 15 Pro |        256 | No Info          |    1150 | [link](https://www.instagram.com/p/Czqt0xtNvcM) | 2023/11/15 |
-| iPhone 15 Pro |        256 | 100              |    1150 | [link](https://www.instagram.com/p/CzlnS9jIHY4) | 2023/11/13 |
-| iPhone 15 Pro |        256 | 100              |  105000 | [link](https://www.instagram.com/p/Czi-e41IGKJ) | 2023/11/12 |
-| iPhone 15 Pro |        256 | 100              |  105000 | [link](https://www.instagram.com/p/Czi-YT2swNa) | 2023/11/12 |
 
 ## iPhone 15 Pro Max, 256 GB
 
 | model             |   capacity | battery_health   |   price | link                                            | date       |
 |:------------------|-----------:|:-----------------|--------:|:------------------------------------------------|:-----------|
+| iPhone 15 Pro Max |        256 | No Info          |  107000 | [link](https://www.instagram.com/p/C03RyaANp11) | 2023/12/15 |
+| iPhone 15 Pro Max |        256 | 100              |  107000 | [link](https://www.instagram.com/p/C03PDTfNgoB) | 2023/12/15 |
+| iPhone 15 Pro Max |        256 | No Info          |  107000 | [link](https://www.instagram.com/p/C0wsHIAoTel) | 2023/12/12 |
+| iPhone 15 Pro Max |        256 | 100              |  107000 | [link](https://www.instagram.com/p/C0wsN55M89P) | 2023/12/12 |
 | iPhone 15 Pro Max |        256 | No Info          |    1200 | [link](https://www.instagram.com/p/C0OKG-kIJ8D) | 2023/11/29 |
 | iPhone 15 Pro Max |        256 | 100              |  112000 | [link](https://www.instagram.com/p/C0CMG6uozY9) | 2023/11/24 |
 | iPhone 15 Pro Max |        256 | 100              |  112000 | [link](https://www.instagram.com/p/C0CMEPIsOUP) | 2023/11/24 |
 | iPhone 15 Pro Max |        256 | No Info          |    1350 | [link](https://www.instagram.com/p/CztkYRWNARZ) | 2023/11/16 |
-| iPhone 15 Pro Max |        256 | 100              |    1290 | [link](https://www.instagram.com/p/CzoN04poMhk) | 2023/11/14 |
 
 ## iPhone 15 Pro Max, 512 GB
 
@@ -335,7 +326,6 @@
 | iPhone 15 Pro Max |        512 | 100              |  127000 | [link](https://www.instagram.com/p/C0Bs-cLNQnK) | 2023/11/24 |
 | iPhone 15 Pro Max |        512 | No Info          |    1520 | [link](https://www.instagram.com/p/Cz3h2DytnB3) | 2023/11/20 |
 | iPhone 15 Pro Max |        512 | No Info          |    1530 | [link](https://www.instagram.com/p/CztYsPgNuQK) | 2023/11/16 |
-| iPhone 15 Pro Max |        512 | No Info          |    1580 | [link](https://www.instagram.com/p/CziLMIJNE5P) | 2023/11/12 |
 
 ## iPhone X, 64 GB
 
