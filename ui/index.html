@@ -7,7 +7,11 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
+    <!-- Existing Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+<!-- Your Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -108,16 +112,6 @@
                             </div>
 
                             <div class="col-md-2">
-                                <select class="form-select" id="gbFilter">
-                                    <option value="">по памяти</option>
-                                    <option value="64 GB">64 ГБ</option>
-                                    <option value="128 GB">128 ГБ</option>
-                                    <option value="256 GB">256 ГБ</option>
-                                    <option value="512 GB">512 ГБ</option>
-                                </select>
-                            </div>
-
-                             <div class="col-md-2">
                                 <select class="form-select" id="versionFilter">
                                     <option value="">по версии</option>
                                     <option value="Regular">Обычный</option>
@@ -128,6 +122,18 @@
                                     <option value="Pro">Pro</option>
                                 </select>
                             </div>
+
+                            <div class="col-md-2">
+                                <select class="form-select" id="gbFilter">
+                                    <option value="">по памяти</option>
+                                    <option value="64 GB">64 ГБ</option>
+                                    <option value="128 GB">128 ГБ</option>
+                                    <option value="256 GB">256 ГБ</option>
+                                    <option value="512 GB">512 ГБ</option>
+                                </select>
+                            </div>
+
+
                         </div>
 
                         <table class="table text-start align-middle table-bordered table-hover mb-0">

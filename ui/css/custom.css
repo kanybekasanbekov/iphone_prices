@@ -1,0 +1,53 @@
+.table-responsive {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.table-responsive {
+    overflow-y: auto;
+    height: 800px; /* Adjust as needed */
+}
+
+.table-responsive thead th {
+    position: sticky;
+    top: 0;
+    background: #e9ecef;
+}
+.table-responsive .table {
+    background-color: #f8f9fa; /* Light grey background */
+    color: black;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table-responsive .table thead th {
+    background-color: #e9ecef; /* A slightly darker shade of grey for the table header */
+    color: black;
+    font-weight: bold;
+}
+
+.table-responsive .table tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* White for odd rows */
+}
+
+.table-responsive .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Very light grey for even rows */
+}
+
+.table-responsive .table tbody tr:hover {
+    background-color: #e2e6ea; /* A different grey for hover effect */
+}
+
+.table-responsive .table td,
+.table-responsive .table th {
+    text-align: left;
+    padding: 8px; /* Adjust as needed */
+    vertical-align: middle;
+    border-bottom: 1px solid #dee2e6;
+}
+
+@media (max-width: 768px) {
+    .table-responsive .table {
+        font-size: 0.9em; /* Smaller font size for smaller devices */
+    }
+}

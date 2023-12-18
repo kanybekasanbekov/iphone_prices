@@ -3,7 +3,6 @@
 
     var jsonData = {};
 
-    // Unified filter function
 function applyFilters() {
     var searchQuery = $('#modelSearch').val().trim().toLowerCase();
     var selectedVersion = $('#versionFilter').val();
@@ -104,6 +103,6 @@ function applyFilters() {
 
     Chart.defaults.color = "#6C7293";
     Chart.defaults.borderColor = "#000000";
-    
+
 
 })(jQuery);
