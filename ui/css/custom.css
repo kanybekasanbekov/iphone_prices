@@ -1,53 +1,82 @@
-.table-responsive {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-}
-.table-responsive {
-    overflow-y: auto;
-    height: 800px; /* Adjust as needed */
+body {
+    background-color: #f2f2f2;
+    color: #3333;
 }
 
-.table-responsive thead th {
-    position: sticky;
-    top: 0;
-    background: #e9ecef;
+.navbar, .navbar-expand, .sidebar, .footer, .container-fluid.pt-4.px-4 {
+    background-color: #d1d2d3;
+    color: #ecf0f1;
 }
+
+.navbar a, .sidebar a, .footer a, .navbar .navbar-brand, .sidebar .nav-link, .footer .text-link {
+    color: #ecf0f1;
+}
+
+.navbar .nav-item.active, .nav-item.active, .navbar .nav-link.active, .nav-link.active {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.navbar a:hover, .sidebar a:hover, .footer a:hover {
+    color: #bdc3c7;
+}
+
+div.bg-secondary {
+    background-color: #e9ecef !important;
+}
+
 .table-responsive .table {
-    background-color: #f8f9fa; /* Light grey background */
-    color: black;
-    border-collapse: separate;
-    border-spacing: 0;
+    background-color: #ffffff;
+    color: #333333;
 }
 
 .table-responsive .table thead th {
-    background-color: #e9ecef; /* A slightly darker shade of grey for the table header */
+    background-color: #f8f9fa;
     color: black;
     font-weight: bold;
 }
 
 .table-responsive .table tbody tr:nth-child(odd) {
-    background-color: #ffffff; /* White for odd rows */
+    background-color: #ffffff;
 }
 
 .table-responsive .table tbody tr:nth-child(even) {
-    background-color: #f2f2f2; /* Very light grey for even rows */
+    background-color: #f2f2f2;
 }
 
 .table-responsive .table tbody tr:hover {
-    background-color: #e2e6ea; /* A different grey for hover effect */
-}
-
-.table-responsive .table td,
-.table-responsive .table th {
-    text-align: left;
-    padding: 8px; /* Adjust as needed */
-    vertical-align: middle;
-    border-bottom: 1px solid #dee2e6;
+    background-color: #e2e6ea;
 }
 
 @media (max-width: 768px) {
     .table-responsive .table {
-        font-size: 0.9em; /* Smaller font size for smaller devices */
+        font-size: 0.9em;
     }
+}
+
+
+select.form-select {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #0c0e12;
+    border-radius: 0.25rem;
+}
+
+select.form-select:hover, select.form-select:focus {
+    background-color: #f2f2f2;
+    border-color: #0c0e12;
+}
+
+select.form-select::-ms-expand {
+    color: #0c0e12;
+}
+
+select.form-select option {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+select.form-select option:hover {
+    background-color: #0c0e12;
+    color: #333333;
 }
