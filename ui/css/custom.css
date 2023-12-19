@@ -80,3 +80,17 @@ select.form-select option:hover {
     background-color: #0c0e12;
     color: #333333;
 }
+
+
+.narrow-cell {
+    width: 50px; /* or any other value */
+}
+
+.wide-cell {
+    width: 100px; /* or any other value */
+}
+
+.table-responsive {
+    max-height: 1720px; /* Adjust the height as needed */
+    overflow-y: auto;
+}
