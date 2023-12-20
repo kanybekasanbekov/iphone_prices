@@ -25,6 +25,7 @@
                 row.hide();
             }
         });
+        sortTableByPrice();
     }
 
     $('#modelSearch, #versionFilter, #modelFilter, #gbFilter').on('input change', applyFilters);
@@ -64,17 +65,21 @@
     }
 
     function sortTableByPrice() {
-        var table, rows, switching, i, x, y, shouldSwitch;
-        table = document.querySelector('.table-responsive table');
+        var table = document.querySelector('.table-responsive table');
+        if (!table || table.rows.length < 2) {
+            return;
+        }
+
+        var rows, switching, i, x, y, shouldSwitch;
         switching = true;
         while (switching) {
             switching = false;
             rows = table.rows;
             for (i = 1; i < (rows.length - 1); i++) {
                 shouldSwitch = false;
-                x = rows[i].getElementsByTagName("TD")[3];
-                y = rows[i + 1].getElementsByTagName("TD")[3];
-                if (Number(x.textContent.split(' ')[0]) > Number(y.textContent.split(' ')[0])) {
+                x = Number(rows[i].getElementsByTagName("TD")[3].textContent.replace(/[^\d.-]/g, ''));
+                y = Number(rows[i + 1].getElementsByTagName("TD")[3].textContent.replace(/[^\d.-]/g, ''));
+                if (x > y) {
                     shouldSwitch = true;
                     break;
                 }
@@ -85,6 +90,8 @@
             }
         }
     }
+
+
 
     function populateTable(data) {
         var tableBody = $('.table-responsive tbody');
@@ -109,8 +116,8 @@
 
     $(document).ready(function () {
         populateTable(jsonData);
-        sortTableByPrice();
         hideTdo();
+        sortTableByPrice();
     });
 
     var spinner = function () {
