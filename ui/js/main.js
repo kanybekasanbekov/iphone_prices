@@ -2,92 +2,115 @@
     "use strict";
 
     var jsonData = {};
+    function applyFilters() {
+        var searchQuery = $('#modelSearch').val().trim().toLowerCase();
+        var selectedVersion = $('#versionFilter').val();
+        var selectedModel = $('#modelFilter').val().toLowerCase();
+        var selectedGB = $('#gbFilter').val();
 
-// Attach event listeners to filter elements
-$('#modelSearch, #versionFilter, #modelFilter, #gbFilter').on('change', applyFilters);
+        var tableRows = $('.table-responsive tbody tr');
 
-function applyFilters() {
-    var searchQuery = $('#modelSearch').val().trim().toLowerCase();
-    var selectedVersion = $('#versionFilter').val();
-    var selectedModel = $('#modelFilter').val().toLowerCase();
-    var selectedGB = $('#gbFilter').val();
+        tableRows.each(function () {
+            var row = $(this);
+            var modelCellText = row.find('td:eq(0)').text().trim().toLowerCase();
+            var gbCellText = row.find('td:eq(1)').text().trim().toLowerCase();
 
-    var tableRows = $('.table-responsive tbody tr');
+            var modelMatch = selectedModel === "" || modelCellText.includes(selectedModel);
+            var versionMatch = selectedVersion === "" || modelCellText.includes(selectedVersion.toLowerCase());
+            var gbMatch = selectedGB === "" || gbCellText.includes(selectedGB.toLowerCase());
 
-    tableRows.each(function () {
-        var row = $(this);
-        var modelCellText = row.find('td:eq(0)').text().trim().toLowerCase();
-        var gbCellText = row.find('td:eq(1)').text().trim().toLowerCase();
+            if (modelMatch && versionMatch && gbMatch) {
+                row.show();
+            } else {
+                row.hide();
+            }
+        });
+    }
 
-        var modelMatch = selectedModel === "" || modelCellText.includes(selectedModel);
-        var versionMatch = selectedVersion === "" || modelCellText.includes(selectedVersion.toLowerCase());
-        var gbMatch = selectedGB === "" || gbCellText.includes(selectedGB.toLowerCase());
+    $('#modelSearch, #versionFilter, #modelFilter, #gbFilter').on('input change', applyFilters);
 
-        if (modelMatch && versionMatch && gbMatch) {
-            row.show();
+    function formatPrice(price) {
+        var priceNumber = Number(price);
+        return priceNumber.toString().length < 5 ? priceNumber + ' $' : priceNumber + ' сом';
+    }
+
+    function hideTdo() {
+        var timer = null;
+        var target = document.querySelector('#tidio-chat iframe');
+        if (!target) {
+            if (timer !== null) {
+                clearTimeout(timer);
+            }
+            timer = setTimeout(hideTdo, 500);
+            return;
         } else {
-            row.hide();
-        }
-    });
-}
-
-$('#modelSearch, #versionFilter, #modelFilter, #gbFilter').on('input change', applyFilters);
-
-function hideTdo() {
-  var timer = null;
-  var target = document.querySelector('#tidio-chat iframe');
-  if(!target) {
-    if(timer !== null) {
-      clearTimeout(timer);
-    }
-    timer = setTimeout(hideTdo, 500);
-    return;
-  } else {
-    var timer2 = null;
-    var tdo = document.querySelector('#tidio-chat iframe')
+            var timer2 = null;
+            var tdo = document.querySelector('#tidio-chat iframe')
+                        .contentDocument
+                        .querySelector('a[href*="tidio.com/powered"]');
+            if (!tdo) {
+                if (timer2 !== null) {
+                    clearTimeout(timer2);
+                }
+                timer2 = setTimeout(hideTdo, 1);
+                return;
+            }
+            document.querySelector('#tidio-chat iframe')
                 .contentDocument
-                .querySelector('a[href*="tidio.com/powered"]');
-    if(!tdo) {
-      if(timer2 !== null) {
-        clearTimeout(timer2);
-      }
-      timer2 = setTimeout(hideTdo, 1);
-      return;
+                .querySelector('a[href*="tidio.com/powered"]')
+                .remove();
+            return true;
+        }
     }
-    document.querySelector('#tidio-chat iframe')
-      .contentDocument
-      .querySelector('a[href*="tidio.com/powered"]')
-      .remove();
-    return true;
-  }
-}
 
+    function sortTableByPrice() {
+        var table, rows, switching, i, x, y, shouldSwitch;
+        table = document.querySelector('.table-responsive table');
+        switching = true;
+        while (switching) {
+            switching = false;
+            rows = table.rows;
+            for (i = 1; i < (rows.length - 1); i++) {
+                shouldSwitch = false;
+                x = rows[i].getElementsByTagName("TD")[3];
+                y = rows[i + 1].getElementsByTagName("TD")[3];
+                if (Number(x.textContent.split(' ')[0]) > Number(y.textContent.split(' ')[0])) {
+                    shouldSwitch = true;
+                    break;
+                }
+            }
+            if (shouldSwitch) {
+                rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                switching = true;
+            }
+        }
+    }
 
+    function populateTable(data) {
+        var tableBody = $('.table-responsive tbody');
+        tableBody.empty(); // Clear any existing rows
 
-    // Event handlers for filter inputs
+        $.each(data, function(key, phone) {
+            var row = $('<tr></tr>');
+            row.append($('<td></td>').text(phone.model));
+            row.append($('<td></td>').text(phone.capacity + ' GB'));
+            row.append($('<td></td>').text(phone.battery_health + '%'));
 
-   function populateTable(data) {
-    var tableBody = $('.table-responsive tbody');
-    $.each(data, function(key, phone) {
-        var row = $('<tr></tr>');
-        row.append($('<td></td>').text(phone.model));
-        row.append($('<td></td>').text(phone.capacity + ' GB'));
-        row.append($('<td></td>').text(phone.battery_health + '%'));
-        row.append($('<td></td>').text(phone.price + ' сом'));
+            var formattedPrice = formatPrice(phone.price);
+            row.append($('<td></td>').text(formattedPrice));
 
+            var instagramLogo = '<a href="' + phone.link + '" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" class="instagram-logo" style="width: 25px; height: 25px;"></a>';
+            row.append($('<td></td>').html(instagramLogo));
+            row.append($('<td></td>').text(phone.date));
 
-        var instagramLogo = '<a href="' + phone.link + '" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" class="instagram-logo" style="width: 25px; height: 25px;"></a>';
-
-        row.append($('<td></td>').html(instagramLogo));
-
-        row.append($('<td></td>').text(phone.date));
-        tableBody.append(row);
-    });
-}
-
+            tableBody.append(row);
+        });
+    }
 
     $(document).ready(function () {
         populateTable(jsonData);
+        sortTableByPrice();
+        hideTdo();
     });
 
     var spinner = function () {
@@ -134,6 +157,5 @@ function hideTdo() {
 
     Chart.defaults.color = "#6C7293";
     Chart.defaults.borderColor = "#000000";
-
 
 })(jQuery);
