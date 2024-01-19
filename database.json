@@ -1,561 +1,25 @@
 {
-    "3274288948630877647": {
-        "model": "iPhone 13 Pro",
-        "capacity": 256,
-        "battery_health": 99,
-        "price": 64000,
-        "link": "https://www.instagram.com/p/C1wnHNrIXXP",
-        "date": "2024/01/06"
-    },
-    "3274235044979409453": {
-        "model": "iPhone 14 Pro Max",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 90000,
-        "link": "https://www.instagram.com/p/C1wa2z_IgIt",
-        "date": "2024/01/06"
-    },
-    "3274180556121751336": {
-        "model": "iPhone 13 Pro",
-        "capacity": 128,
-        "battery_health": 88,
-        "price": 57000,
-        "link": "https://www.instagram.com/p/C1wOd5SIL8o",
-        "date": "2024/01/06"
-    },
-    "3274114774570452198": {
-        "model": "iPhone 14 Pro",
-        "capacity": 128,
-        "battery_health": 93,
-        "price": 72000,
-        "link": "https://www.instagram.com/p/C1v_gpcIUTm",
-        "date": "2024/01/06"
-    },
-    "3273682898605263932": {
-        "model": "iPhone 14 Pro",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 83000,
-        "link": "https://www.instagram.com/p/C1udUBmo0w8",
-        "date": "2024/01/05"
-    },
-    "3273634502636813944": {
-        "model": "iPhone 13 Pro",
-        "capacity": "No Info",
-        "battery_health": 99,
-        "price": 63000,
-        "link": "https://www.instagram.com/p/C1uSTxWIT54",
-        "date": "2024/01/05"
-    },
-    "3273599994915103289": {
-        "model": "iPhone 14 Pro Max",
-        "capacity": 128,
-        "battery_health": 100,
-        "price": 84000,
-        "link": "https://www.instagram.com/p/C1uKdnhoqI5",
-        "date": "2024/01/05"
-    },
-    "3273562154038583854": {
-        "model": "iPhone 12 Pro Max",
-        "capacity": 256,
-        "battery_health": 86,
-        "price": 52000,
-        "link": "https://www.instagram.com/p/C1uB29doeIu",
-        "date": "2024/01/05"
-    },
-    "3269790067998146605": {
-        "model": "iPhone 15 Pro",
-        "capacity": 256,
-        "battery_health": "No Info",
-        "price": 107000,
-        "link": "https://www.instagram.com/p/C1goL4lIUAt",
-        "date": "2023/12/31"
-    },
-    "3268428499276352976": {
-        "model": "iPhone 14 Pro",
-        "capacity": 128,
-        "battery_health": 99,
-        "price": 73000,
-        "link": "https://www.instagram.com/p/C1bymc5IU3Q",
-        "date": "2023/12/29"
-    },
-    "3268299283020937715": {
-        "model": "iPhone 14",
-        "capacity": 128,
-        "battery_health": 92,
-        "price": 53000,
-        "link": "https://www.instagram.com/p/C1bVOG4IHnz",
-        "date": "2023/12/29"
-    },
-    "3267930659483556934": {
-        "model": "iPhone 14 Pro",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 83000,
-        "link": "https://www.instagram.com/p/C1aBZ7dIBxG",
-        "date": "2023/12/28"
-    },
-    "3267892308470886692": {
-        "model": "iPhone 15 Pro",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 98000,
-        "link": "https://www.instagram.com/p/C1Z4r2So3Ek",
-        "date": "2023/12/28"
-    },
-    "3267813355831888154": {
-        "link": "https://www.instagram.com/p/C1Zmu76owka",
-        "date": "2023/12/28"
-    },
-    "3265590487135949133": {
-        "model": "iPhone 13 Pro Max",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 73000,
-        "link": "https://www.instagram.com/p/C1RtT8HohFN",
-        "date": "2023/12/25"
-    },
-    "3264857361459824264": {
-        "model": "iPhone 14 Plus",
-        "capacity": 128,
-        "battery_health": 93,
-        "price": 55000,
-        "link": "https://www.instagram.com/p/C1PGnjoIcaI",
-        "date": "2023/12/24"
-    },
-    "3264803708266917387": {
-        "model": "iPhone 13 Pro",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 67000,
-        "link": "https://www.instagram.com/p/C1O6azMoK4L",
-        "date": "2023/12/24"
-    },
-    "3264310631995553648": {
-        "link": "https://www.instagram.com/p/C1NKTmIoDdw",
-        "date": "2023/12/23"
-    },
-    "3263328421159359361": {
-        "model": "iPhone 14 Pro",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 83000,
-        "link": "https://www.instagram.com/p/C1Jq-jAo9OB",
-        "date": "2023/12/22"
-    },
-    "3263252621907124089": {
-        "model": "iPhone 12 Pro",
-        "capacity": 128,
-        "battery_health": 98,
-        "price": 42500,
-        "link": "https://www.instagram.com/p/C1JZvhdIt95",
-        "date": "2023/12/22"
-    },
-    "3262764510601244232": {
-        "model": "iPhone 13 Pro",
-        "capacity": 128,
-        "battery_health": 88,
-        "price": 57000,
-        "link": "https://www.instagram.com/p/C1HqwkYI25I",
-        "date": "2023/12/21"
-    },
-    "3262729012813962479": {
-        "model": "iPhone 13 Pro",
-        "capacity": 256,
-        "battery_health": 99,
-        "price": 65000,
-        "link": "https://www.instagram.com/p/C1HisAfIxzv",
-        "date": "2023/12/21"
-    },
-    "3262122659598795662": {
-        "model": "iPhone 14 Pro Max",
-        "capacity": 128,
-        "battery_health": 88,
-        "price": 77000,
-        "link": "https://www.instagram.com/p/C1FY0aDI4OO",
-        "date": "2023/12/20"
-    },
-    "3261769279378519955": {
-        "model": "iPhone 14 Pro",
-        "capacity": 128,
-        "battery_health": 100,
-        "price": 73000,
-        "link": "https://www.instagram.com/p/C1EIeDEo3eT",
-        "date": "2023/12/20"
-    },
-    "3261377776818795236": {
-        "link": "https://www.instagram.com/p/C1Cvc75ozLk",
-        "date": "2023/12/19"
-    },
-    "3261280042732346623": {
-        "model": "iPhone 15 Pro",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 100000,
-        "link": "https://www.instagram.com/p/C1CZOt8Idz_",
-        "date": "2023/12/19"
-    },
-    "3261233608607850471": {
-        "model": "iPhone 13 Pro",
-        "capacity": 256,
-        "battery_health": 89,
-        "price": 60000,
-        "link": "https://www.instagram.com/p/C1COrAyot_n",
-        "date": "2023/12/19"
-    },
-    "3274996924245233181": {
-        "link": "https://www.instagram.com/p/C1zIFnWIk4d",
-        "date": "2024/01/07"
-    },
-    "3274242149794899733": {
-        "model": "iPhone 14 Pro",
-        "capacity": 256,
-        "battery_health": "No Info",
-        "price": "No Info",
-        "link": "https://www.instagram.com/p/C1wceM3IucV",
-        "date": "2024/01/06"
-    },
-    "3273516220353197841": {
-        "link": "https://www.instagram.com/p/C1t3aiYobcR",
-        "date": "2024/01/05"
-    },
-    "3273500838078942322": {
-        "link": "https://www.instagram.com/p/C1tz6sho4xy",
-        "date": "2024/01/05"
-    },
-    "3272815976292527377": {
-        "link": "https://www.instagram.com/p/C1rYMpSI60R",
-        "date": "2024/01/04"
-    },
-    "3272022471043251764": {
-        "link": "https://www.instagram.com/p/C1ojxn7oP40",
-        "date": "2024/01/03"
-    },
-    "3271376348863639751": {
-        "link": "https://www.instagram.com/p/C1mQ3TwobDH",
-        "date": "2024/01/02"
-    },
-    "3271353548031441839": {
-        "model": "iPhone 14 Pro Max",
-        "capacity": 256,
-        "battery_health": "No Info",
-        "price": 87000,
-        "link": "https://www.instagram.com/p/C1mLrg1ILuv",
-        "date": "2024/01/02"
-    },
-    "3270722887969009460": {
-        "link": "https://www.instagram.com/p/C1j8SM4Ie80",
-        "date": "2024/01/01"
-    },
-    "3270722507671458275": {
-        "model": "iPhone 11 Pro",
-        "capacity": 128,
-        "battery_health": 87,
-        "price": 600,
-        "link": "https://www.instagram.com/p/C1j8MqsodHj",
-        "date": "2024/01/01"
-    },
-    "3270067027286442173": {
-        "link": "https://www.instagram.com/p/C1hnKLBIEC9",
-        "date": "2023/12/31"
-    },
-    "3269955496616076415": {
-        "link": "https://www.instagram.com/p/C1hNzL_IyR_",
-        "date": "2023/12/31"
-    },
-    "3269269158031901467": {
-        "link": "https://www.instagram.com/p/C1exvpXocMb",
-        "date": "2023/12/30"
-    },
-    "3269251988120059834": {
-        "model": "iPhone 12 Pro Max",
-        "capacity": 128,
-        "battery_health": "No Info",
-        "price": 53000,
-        "link": "https://www.instagram.com/p/C1et1ypIr-6",
-        "date": "2023/12/30"
-    },
-    "3267791492460271975": {
-        "link": "https://www.instagram.com/p/C1ZhwyEI1ln",
-        "date": "2023/12/28"
-    },
-    "3267743992202140107": {
-        "model": "iPhone 14 Pro",
-        "capacity": 256,
-        "battery_health": 94,
-        "price": 78000,
-        "link": "https://www.instagram.com/p/C1ZW9kAIBnL",
-        "date": "2023/12/28"
-    },
-    "3267080395914570519": {
-        "link": "https://www.instagram.com/p/C1XAE9zIWsX",
-        "date": "2023/12/27"
-    },
-    "3267068156239211764": {
-        "link": "https://www.instagram.com/p/C1W9S2toOz0",
-        "date": "2023/12/27"
-    },
-    "3265648196992495213": {
-        "model": "iPhone 11 Pro",
-        "capacity": 256,
-        "battery_health": "No Info",
-        "price": 40000,
-        "link": "https://www.instagram.com/p/C1R6bunIe5t",
-        "date": "2023/12/25"
-    },
-    "3265643536281898121": {
-        "link": "https://www.instagram.com/p/C1R5X5_IgyJ",
-        "date": "2023/12/25"
-    },
-    "3264877065293415016": {
-        "model": "iPhone 13 Pro",
-        "capacity": 128,
-        "battery_health": "No Info",
-        "price": 60000,
-        "link": "https://www.instagram.com/p/C1PLGSQIkJo",
-        "date": "2023/12/24"
-    },
-    "3264122361516934191": {
-        "link": "https://www.instagram.com/p/C1Mff5loEQv",
-        "date": "2023/12/23"
-    },
-    "3261126313303601681": {
-        "link": "https://www.instagram.com/p/C1B2RqQI_IR",
-        "date": "2023/12/19"
-    },
-    "3260574599135472771": {
-        "link": "https://www.instagram.com/p/C0_41KZIayD",
-        "date": "2023/12/18"
-    },
-    "3259781573236692494": {
-        "model": "iPhone 15 Pro",
-        "capacity": 256,
-        "battery_health": "No Info",
-        "price": 1200,
-        "link": "https://www.instagram.com/p/C09EhHeIxYO",
-        "date": "2023/12/17"
-    },
-    "3259553765386287860": {
-        "link": "https://www.instagram.com/p/C08QuE4Ivr0",
-        "date": "2023/12/17"
-    },
-    "3275665512796088839": {
-        "link": "https://www.instagram.com/p/C11gG29NWoH",
-        "date": "2024/01/08"
-    },
-    "3275660360714393380": {
-        "model": "iPhone 15 Pro",
-        "capacity": 128,
-        "battery_health": 100,
-        "price": 92000,
-        "link": "https://www.instagram.com/p/C11e74tNZck",
-        "date": "2024/01/08"
-    },
-    "3274104350258436561": {
-        "model": "iPhone 14 Pro Max",
-        "capacity": 512,
-        "battery_health": 100,
-        "price": 93000,
-        "link": "https://www.instagram.com/p/C1v9I9CtxnR",
-        "date": "2024/01/06"
-    },
-    "3273433780185205447": {
-        "link": "https://www.instagram.com/p/C1tkq3_tArH",
-        "date": "2024/01/05"
-    },
-    "3272887186448831431": {
-        "model": "iPhone 15 Pro Max",
-        "capacity": 512,
-        "battery_health": 100,
-        "price": 120000,
-        "link": "https://www.instagram.com/p/C1roY46NdPH",
-        "date": "2024/01/04"
-    },
-    "3272882343009060613": {
-        "model": "iPhone 15 Pro",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 98000,
-        "link": "https://www.instagram.com/p/C1rnSaGtAcF",
-        "date": "2024/01/04"
-    },
-    "3269771997016851200": {
-        "model": "iPhone 15 Pro",
-        "capacity": 128,
-        "battery_health": 100,
-        "price": 92000,
-        "link": "https://www.instagram.com/p/C1gkE6qtYMA",
-        "date": "2023/12/31"
-    },
-    "3269752950833491463": {
-        "model": "iPhone 15 Pro",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 98000,
-        "link": "https://www.instagram.com/p/C1gfvwhty4H",
-        "date": "2023/12/31"
-    },
-    "3268431003225626129": {
-        "link": "https://www.instagram.com/p/C1bzK44IxYR",
-        "date": "2023/12/29"
-    },
-    "3268304995848943307": {
-        "model": "iPhone 15 Pro Max",
-        "capacity": 512,
-        "battery_health": 100,
-        "price": 120000,
-        "link": "https://www.instagram.com/p/C1bWhPXNfbL",
-        "date": "2023/12/29"
-    },
-    "3267783776014474831": {
-        "link": "https://www.instagram.com/p/C1ZgAfkIJ5P",
-        "date": "2023/12/28"
-    },
-    "3267052009092977538": {
-        "model": "iPhone 14 Pro Max",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 90000,
-        "link": "https://www.instagram.com/p/C1W5n4gtpOC",
-        "date": "2023/12/27"
-    },
-    "3267042974352405165": {
-        "link": "https://www.instagram.com/p/C1W3kaQNfKt",
-        "date": "2023/12/27"
-    },
-    "3266920742972185636": {
-        "model": "iPhone 14 Pro",
-        "capacity": 128,
-        "battery_health": 91,
-        "price": 68000,
-        "link": "https://www.instagram.com/p/C1WbxtaNlwk",
-        "date": "2023/12/27"
-    },
-    "3266880776279936529": {
-        "model": "iPhone 15 Pro",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 98000,
-        "link": "https://www.instagram.com/p/C1WSsHht84R",
-        "date": "2023/12/27"
-    },
-    "3265558830896172398": {
-        "link": "https://www.instagram.com/p/C1RmHR8tM1u",
-        "date": "2023/12/25"
-    },
-    "3264125018249310535": {
-        "model": "iPhone 15 Pro Max",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 104000,
-        "link": "https://www.instagram.com/p/C1MgGj3NzFH",
-        "date": "2023/12/23"
-    },
-    "3264025789656955766": {
-        "link": "https://www.instagram.com/p/C1MJimCN3t2",
-        "date": "2023/12/23"
-    },
-    "3264006471632068797": {
-        "link": "https://www.instagram.com/p/C1MFJeuNKC9",
-        "date": "2023/12/23"
-    },
-    "3263988489040369901": {
-        "model": "iPhone 13 Pro Max",
-        "capacity": 256,
-        "battery_health": 92,
-        "price": 70000,
-        "link": "https://www.instagram.com/p/C1MBDzINxjt",
-        "date": "2023/12/23"
-    },
-    "3263974585820186898": {
-        "model": "iPhone 14 Pro",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 80000,
-        "link": "https://www.instagram.com/p/C1L95evtwkS",
-        "date": "2023/12/23"
-    },
-    "3263284935219389445": {
-        "link": "https://www.instagram.com/p/C1JhFvkoqQF",
-        "date": "2023/12/22"
-    },
-    "3263215785081067726": {
-        "model": "iPhone 15 Pro Max",
-        "capacity": 512,
-        "battery_health": "No Info",
-        "price": 135000,
-        "link": "https://www.instagram.com/p/C1JRXefNFjO",
-        "date": "2023/12/22"
-    },
-    "3263190127558919664": {
-        "model": "iPhone 15 Pro",
-        "capacity": 128,
-        "battery_health": 100,
-        "price": 92000,
-        "link": "https://www.instagram.com/p/C1JLiHDtgXw",
-        "date": "2023/12/22"
-    },
-    "3260441152052255821": {
-        "model": "iPhone 15 Pro Max",
-        "capacity": 512,
-        "battery_health": 100,
-        "price": 120000,
-        "link": "https://www.instagram.com/p/C0_afQHI9xN",
-        "date": "2023/12/18"
-    },
-    "3260433708002702714": {
-        "model": "iPhone 15",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 70000,
-        "link": "https://www.instagram.com/p/C0_Yy7TNfV6",
-        "date": "2023/12/18"
-    },
-    "3259800043382716613": {
-        "model": "iPhone 14 Pro",
-        "capacity": 256,
-        "battery_health": 99,
-        "price": 80000,
-        "link": "https://www.instagram.com/p/C09It5IoTjF",
-        "date": "2023/12/17"
-    },
-    "3259791807741070513": {
-        "model": "iPhone 13",
-        "capacity": 128,
-        "battery_health": 100,
-        "price": 47000,
-        "link": "https://www.instagram.com/p/C09G2DGIoyx",
-        "date": "2023/12/17"
-    },
-    "3259790293833409033": {
-        "model": "iPhone 15 Pro",
-        "capacity": 256,
-        "battery_health": 100,
-        "price": 100000,
-        "link": "https://www.instagram.com/p/C09GgBKNOIJ",
-        "date": "2023/12/17"
-    },
-    "3259636758491765015": {
-        "model": "iPhone 15 Pro",
-        "capacity": 128,
-        "battery_health": 100,
-        "price": 92000,
-        "link": "https://www.instagram.com/p/C08jlyOtRkX",
-        "date": "2023/12/17"
-    },
-    "3259623824835267676": {
-        "model": "iPhone 15 Pro",
-        "capacity": 128,
-        "battery_health": 100,
-        "price": 92000,
-        "link": "https://www.instagram.com/p/C08gpk0tMxc",
-        "date": "2023/12/17"
+    "3282389306972430435": {
+        "link": "https://www.instagram.com/p/C2NY68QoeBj",
+        "date": "2024/01/17"
+    },
+    "3282096058760687154": {
+        "link": "https://www.instagram.com/p/C2MWPnlI-4y",
+        "date": "2024/01/17"
+    },
+    "3281676560781973612": {
+        "link": "https://www.instagram.com/p/C2K23HpIphs",
+        "date": "2024/01/16"
+    },
+    "3281595117624058504": {
+        "link": "https://www.instagram.com/p/C2KkV9yo2KI",
+        "date": "2024/01/16"
+    },
+    "3281558073480683185": {
+        "link": "https://www.instagram.com/p/C2Kb65voZ6x",
+        "date": "2024/01/16"
     },
     "3280121374531734647": {
-        "model": "iPhone 13 Pro",
-        "capacity": 512,
-        "battery_health": 97,
-        "price": 64000,
         "link": "https://www.instagram.com/p/C2FVQLlIUx3",
         "date": "2024/01/14"
     },
@@ -564,10 +28,6 @@
         "date": "2024/01/12"
     },
     "3278700236064766139": {
-        "model": "iPhone 14 Pro Max",
-        "capacity": 256,
-        "battery_health": 92,
-        "price": 87000,
         "link": "https://www.instagram.com/p/C2ASH5PoTi7",
         "date": "2024/01/12"
     },
@@ -575,25 +35,37 @@
         "link": "https://www.instagram.com/p/C2AB-c5oXOt",
         "date": "2024/01/12"
     },
-    "3276461522320129639": {
-        "model": "iPhone 12 Pro Max",
-        "capacity": 512,
-        "battery_health": 87,
-        "price": 53000,
-        "link": "https://www.instagram.com/p/C14VGUmIH5n",
-        "date": "2024/01/09"
+    "3283016537000248184": {
+        "link": "https://www.instagram.com/p/C2PniVvogN4",
+        "date": "2024/01/18"
     },
-    "3276380291209574700": {
-        "model": "iPhone 12 Pro",
-        "capacity": 256,
-        "battery_health": 99,
-        "price": 46000,
-        "link": "https://www.instagram.com/p/C14CoQOozks",
-        "date": "2024/01/09"
+    "3282273685563731994": {
+        "link": "https://www.instagram.com/p/C2M-obbo3Aa",
+        "date": "2024/01/17"
     },
-    "3276343094922045026": {
-        "link": "https://www.instagram.com/p/C136K-fIeZi",
-        "date": "2024/01/09"
+    "3282219966520315025": {
+        "model": "No Info",
+        "capacity": "No Info",
+        "ram": "No Info",
+        "price": "No Info",
+        "link": "https://www.instagram.com/p/C2MyatrI0yR",
+        "date": "2024/01/17"
+    },
+    "3282154326669254760": {
+        "link": "https://www.instagram.com/p/C2MjfhzIeBo",
+        "date": "2024/01/17"
+    },
+    "3281400083175726663": {
+        "link": "https://www.instagram.com/p/C2J3_1zoF5H",
+        "date": "2024/01/16"
+    },
+    "3280853237839787500": {
+        "link": "https://www.instagram.com/p/C2H7qMZoXXs",
+        "date": "2024/01/15"
+    },
+    "3280838093617288617": {
+        "link": "https://www.instagram.com/p/C2H4N0PoNWp",
+        "date": "2024/01/15"
     },
     "3280105418526993120": {
         "link": "https://www.instagram.com/p/C2FRn_ZIqrg",
@@ -614,9 +86,5 @@
     "3277222762978006636": {
         "link": "https://www.instagram.com/p/C17CL1NINZs",
         "date": "2024/01/10"
-    },
-    "3276440302346544371": {
-        "link": "https://www.instagram.com/p/C14QRh9I6Tz",
-        "date": "2024/01/09"
     }
 }

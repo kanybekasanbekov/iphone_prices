@@ -12,31 +12,39 @@ client = OpenAI(
     api_key=os.environ["OPENAI_API_KEY"],
 )
 
-# load main prompt from file
-with open('prompt.txt', 'r') as f:
-    MAIN_PROMT = f.read()
-
-# load database from file
-with open('database.json', 'r') as f:
-    DATABASE = json.load(f)
-
 ONLINE_STORES = ['telefonchik009', 'mobillion.kg', 'apple.tsum', 'apple__kg', \
-                    'crazy.store.kg', 'sotochka312']
+                    'crazy.store.kg', 'sotochka312', 'nur_store_kg']
 
 
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--login', type=str, default='', help='Instagram login')
     parser.add_argument('--password', type=str, default='', help='Instagram password')
+    parser.add_argument('--days', type=int, default=30, help='Number of days to scrape')
+    parser.add_argument('--samsung', action='store_true', help='Scrape Samsung')
     return parser.parse_args()
 
 if __name__ == "__main__":
     args = get_args()
     login = args.login
     password = args.password
+    days = args.days
+    samsung = args.samsung
+
+    suffix = ''
+    if samsung:
+        suffix = '_samsung'
+
+    # load main prompt from file
+    with open(f'prompt{suffix}.txt', 'r') as f:
+        MAIN_PROMT = f.read()
+
+    # load database from file
+    with open(f'database{suffix}.json', 'r') as f:
+        DATABASE = json.load(f)
 
     today_date = datetime.now()
-    one_month_ago = today_date - timedelta(days=30)
+    one_month_ago = today_date - timedelta(days=days)
 
     bot = instaloader.Instaloader()
     if login and password:
